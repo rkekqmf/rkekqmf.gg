@@ -5,9 +5,9 @@ const entries = ({ rankData }) => {
   console.log(soloRankData);
   console.log(flexRankData);
 
-  // const summonerName = data.map((info) => info.summonerName);
-  // const tier = data.map((info) => info.tier);
-  // const rank = data.map((info) => info.rank);
+  const summonerName = data.map((info) => info.summonerName);
+  const tier = data.map((info) => info.tier);
+  const rank = data.map((info) => info.rank);
   // const leaguePoints = data.map((info) => info.leaguePoints);
   // const queueType = data.map((info) => info.queueType);
   // const wins = data.map((info) => info.wins);
